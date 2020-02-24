@@ -46,14 +46,15 @@ body{
 }
 @media (max-width:991px){
     body{
+        height: 900px;
         background-image: url(../img/man-1.jpg);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 100% 80%;
+        background-size: 100% 50%;
     }
     h1{
         color: black;
-        padding-top: 80%;
+        padding-top: 60%;
         font-size: 20px;
         text-align: center;      
     }
