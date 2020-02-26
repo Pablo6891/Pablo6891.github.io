@@ -6,7 +6,7 @@ body{
         background-image: url(../img/man-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        position: center;
+        
     }
     h1{
         text-align: left;
@@ -46,24 +46,24 @@ body{
     }
 }
 @media (max-width:991px){
-    div.img{
+    div{
         background-image: url(../img/man-1.jpg);
         background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
+        background-size: 100%;
+
     }
     .img{
-        height: 60vh;
+       height: 70vh;
     }
     h1{
         color: black;
-        padding-top: 60%;
-        font-size: 20px;
+        font-size: 15px;
+        padding-top: 75%;
         text-align: center;      
     }
     h2{
         color: black;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
 }
