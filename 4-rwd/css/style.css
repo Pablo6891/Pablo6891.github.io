@@ -6,8 +6,7 @@ body{
         background-image: url(../img/man-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        position: center;
     }
     h1{
         text-align: left;
@@ -24,13 +23,15 @@ body{
     }
 }
 @media (min-width: 992px) and (max-width:1169px){
-    body{
+    div{
         background-image: url(../img/man-2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     } 
+    .img{
+        height: 70vh;
+    }
     h1{
-     
         margin-left: 58%;
         padding-top: 13%;
         text-align: left;
@@ -45,12 +46,14 @@ body{
     }
 }
 @media (max-width:991px){
-    body{
-        height: 900px;
+    div.img{
         background-image: url(../img/man-1.jpg);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 100% 50%;
+        background-size: cover;
+    }
+    .img{
+        height: 60vh;
     }
     h1{
         color: black;
