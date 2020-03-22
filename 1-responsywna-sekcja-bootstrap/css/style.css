@@ -1,0 +1,28 @@
+body{
+    margin: 1px 1px 1px 1px;
+}
+.main{
+    
+    font-size: 2rem;
+    margin-top: 50px;
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 150%
+
+}
+
+div.img{
+   
+    text-align: center;
+}
+
+i.fab{
+    background-color: silver;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    color: orange;
+    padding: 25px;    
+}
