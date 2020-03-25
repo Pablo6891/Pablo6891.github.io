@@ -1,0 +1,30 @@
+input{
+    margin-top: 5px;
+    border-radius: 2px;
+    border: 0px solid black;
+    background-color: rgb(129, 55, 107);
+    color: aqua;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    text-align: center;
+    
+}
+input::placeholder{
+    color: rgba(0, 255, 255, 0.466);
+}
+button{
+    margin-top: 50px;
+    background-color: rgb(129, 55, 107);
+    width: 130px;
+    height: 40px;
+    border: 0px solid rgb(59, 54, 54);
+    border-radius: 2px;
+    color:aqua;
+    font-size: 18px;
+    
+}
+button:hover{
+   background-color: aqua;
+   color:rgb(129, 55, 107);
+}
