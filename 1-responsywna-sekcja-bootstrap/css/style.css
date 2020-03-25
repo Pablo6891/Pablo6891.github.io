@@ -1,24 +1,27 @@
 body{
     margin: 1px 1px 1px 1px;
 }
-.main{
-    
-    font-size: 2rem;
-    margin-top: 50px;
-    
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 150%
 
+.main{
+    margin-top: 150px;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+.main-hr{
+    width: 250px;
 }
 
 div.img{
-   
+    margin-top: 55px;
     text-align: center;
 }
 
 i.fab{
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.301);
     border-radius: 50%;
     height: 100px;
     width: 100px;
