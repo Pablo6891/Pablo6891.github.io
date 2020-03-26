@@ -1,0 +1,32 @@
+body{
+    margin: 1px 1px 1px 1px;
+}
+
+.main{
+
+    margin-top: 150px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 150px;
+
+}
+.main-hr{
+    width: 250px;
+}
+
+.card{
+    
+
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+ 
+    
+}
+.btn{
+    
+    color: orange;
+    
+    
+}
